@@ -8,7 +8,7 @@ body {
 /* -----Start Of Header---- */
 .cover {
   width: 100%;
-  background-image: url("image/img1.jpg");
+  background-image: url("../image/img1.jpg");
   background-size: cover;
   margin-bottom: 60px;
   background-position: center;
@@ -248,7 +248,6 @@ a img {
     position: fixed;
     top: 0px;
     background-color: #144975;
-
     text-align: right;
     height: 70px;
     width: 100%;
