@@ -149,121 +149,324 @@ li {
 .raw-2 {
   display: none;
 }
-@media (max-width: 1260px) {
-  /* -------header------ */
-  .nav {
-    position: fixed;
-    top: 0px;
-    background-color: #144975;
-    text-align: right;
-    height: 70px;
-    width: 100%;
-    line-height: 70px;
-    z-index: 1;
-  }
 
+.email {
+  box-sizing: border-box;
+  background-image: url(../image/Rect.png);
+  background-size: cover;
+
+  margin: auto;
+  width: 100%;
+  padding-bottom: 50px;
+  background-position: center;
+}
+.email input {
+  padding: 14px;
+  width: 600px;
+  border-radius: 10px;
+}
+.email button {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  color: white;
+  background-color: #144975;
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.em1 img {
+  margin-top: 1px;
+  margin-right: 8px;
+}
+
+.email img {
+  width: 20%;
+}
+
+.email p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+}
+.ema {
+  width: 38%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.em1 {
+  width: 100%;
+
+  display: flex;
+}
+
+form {
+  background-color: aqua;
+}
+
+/*----------------footer-------------*/
+footer {
+  background-color: #144975;
+  color: white;
+}
+footer img {
+  width: 160px;
+}
+#facebook {
+  width: 15px;
+}
+a img {
+  margin-right: 6px;
+  width: 25px;
+}
+
+.block {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  justify-content: center;
+  display: flex;
+}
+.block1 {
+  line-height: 20px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact p {
+  margin-right: 20px;
+}
+.copy {
+  background-color: #688095;
+}
+.p {
+  color: white;
+  padding: 0px;
+  display: flex;
+  margin-left: 220px;
+  font-size: 14px;
+}
+.p p {
+  margin-right: 600px;
+}
+.p2 {
+  display: flex;
+}
+.p2 p {
+  margin-right: 30px;
+}
+.footer2 {
+  display: none;
+}
+@media (max-width: 743px) {
   .cover {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 1px;
-    height: 600px;
-    width: auto;
+    background-position-x: 533px;
   }
-
-  label {
-    display: block;
+  .sous-titre {
+    width: 80%;
+    margin-bottom: 20px;
   }
-  .nav {
-    text-align: center;
-  }
-  .nav img {
-    width: 40x;
-    height: 40px;
-    margin-left: 60px;
-    margin-top: 10px;
-  }
-  .menu {
-    text-align: center;
-    width: 100%;
-    margin-top: -9px;
-    margin-right: 0px;
-
-    display: none;
-  }
-  .menu a {
-    display: block;
-    border-top: 1px solid #eaeaeb;
-    border-bottom: 1px solid #eaeaeb;
-    margin: 0px;
-
-    background-color: #144975;
-    color: white;
-    text-align: center;
-  }
-  /* ---End of Header---- */
-  .raw {
-    display: none;
-  }
-
   .raw-2 {
+    display: none;
+  }
+  .raw {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    flex-direction: column;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
   .cart {
-    width: 44%;
-    height: auto;
     display: block;
-    padding-bottom: 15px;
-    color: #707070;
-    box-shadow: 0px 7px 10px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    max-width: 412px;
   }
-  .text-details {
-    font-size: 24px;
-    line-height: 23px;
-  }
-
-  .cover {
-    margin-bottom: 40px;
-  }
-
   li {
     margin-top: 5px;
     font-size: 18px;
   }
+  .text-details {
+    height: auto;
+  }
 
-  @media (max-width: 743px) {
+  .email input {
+    padding: 14px;
+    width: 600px;
+    height: 6px;
+    border-radius: 4px;
+  }
+  .email button {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: #144975;
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .em1 img {
+    margin-top: 1px;
+    margin-right: 8px;
+  }
+
+  .email img {
+    width: 14px;
+    height: auto;
+  }
+
+  .email p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .ema {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .em1 {
+    width: 100%;
+
+    display: flex;
+  }
+
+  /*----------------footer-------------*/
+
+  .block {
+    display: none;
+  }
+  .copy {
+    display: none;
+  }
+  .footer2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  #logo {
+    width: 100px;
+  }
+
+  .footer2 p {
+    color: #b8b8b8;
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .footer2 strong {
+    font-family: open sans;
+    letter-spacing: 1px;
+    font-weight: 100;
+  }
+  @media (max-width: 1260px) {
+    /* -------header------ */
+    .nav {
+      position: fixed;
+      top: 0px;
+      background-color: #144975;
+      text-align: right;
+      height: 70px;
+      width: 100%;
+      line-height: 70px;
+      z-index: 1;
+    }
+
     .cover {
-      background-position-x: 533px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      padding-top: 1px;
+      height: 600px;
+      width: auto;
     }
-    .sous-titre {
-      width: 80%;
-      margin-bottom: 20px;
+
+    label {
+      display: block;
     }
-    .raw-2 {
+    .nav {
+      text-align: center;
+    }
+    .nav img {
+      width: 40x;
+      height: 40px;
+      margin-left: 60px;
+      margin-top: 10px;
+    }
+    .menu {
+      text-align: center;
+      width: 100%;
+      margin-top: -9px;
+      margin-right: 0px;
+
       display: none;
     }
+    .menu a {
+      display: block;
+      border-top: 1px solid #eaeaeb;
+      border-bottom: 1px solid #eaeaeb;
+      margin: 0px;
+
+      background-color: #144975;
+      color: white;
+      text-align: center;
+    }
+    /* ---End of Header---- */
     .raw {
+      display: none;
+    }
+
+    .raw-2 {
       display: flex;
-      flex-direction: column;
-      margin-bottom: 0px;
-      margin-top: 0px;
+      justify-content: space-between;
+      padding-bottom: 20px;
     }
     .cart {
-      display: block;
-      width: 100%;
+      width: 44%;
       height: auto;
-      margin: 20px auto;
-      max-width: 412px;
+      display: block;
+      padding-bottom: 15px;
+      color: #707070;
+      box-shadow: 0px 7px 10px;
     }
+    .text-details {
+      font-size: 24px;
+      line-height: 23px;
+    }
+
+    .cover {
+      margin-bottom: 40px;
+    }
+
     li {
       margin-top: 5px;
       font-size: 18px;
     }
-    .text-details {
-      height: auto;
-    }
-    @media (max-width: 533px) {
+
+    @media (max-width: 677px) {
+      .raw-2 {
+        display: none;
+      }
+      .raw {
+        display: flex;
+        flex-direction: column;
+      }
+      .cart {
+        width: 95%;
+      }
       .cover {
         background-position-x: 533px;
       }
