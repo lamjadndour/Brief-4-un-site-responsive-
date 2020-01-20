@@ -293,6 +293,9 @@ a img {
     color: white;
     text-align: center;
   }
+  #toggle:checked + .menu {
+    display: block;
+  }
   /* ---End of Header---- */
   .raw,
   .cart {

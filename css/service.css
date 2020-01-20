@@ -209,6 +209,7 @@ form {
 }
 
 /*----------------footer-------------*/
+/* ----Start-Of-Footer----- */
 footer {
   background-color: #144975;
   color: white;
@@ -362,7 +363,6 @@ a img {
   #logo {
     width: 100px;
   }
-
   .footer2 p {
     color: #b8b8b8;
     font-size: 13px;
@@ -373,7 +373,7 @@ a img {
     letter-spacing: 1px;
     font-weight: 100;
   }
-  @media (max-width: 1260px) {
+  @media (max-width: 1380px) {
     /* -------header------ */
     .nav {
       position: fixed;
@@ -423,6 +423,9 @@ a img {
       background-color: #144975;
       color: white;
       text-align: center;
+    }
+    #toggle:checked + .menu {
+      display: block;
     }
     /* ---End of Header---- */
     .raw {
