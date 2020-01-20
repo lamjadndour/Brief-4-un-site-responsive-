@@ -177,6 +177,64 @@ main {
   color: #144975;
   text-align: center;
 }
+
+.email {
+  box-sizing: border-box;
+  background-image: url(../image/Rect.png);
+  background-size: cover;
+
+  margin: auto;
+  width: 100%;
+  padding-bottom: 50px;
+  background-position: center;
+}
+.email input {
+  padding: 14px;
+  width: 600px;
+  border-radius: 10px;
+}
+.email button {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 150px;
+  color: white;
+  background-color: #144975;
+  border-radius: 4px;
+  padding: 14px;
+}
+
+.em1 img {
+  margin-top: 1px;
+  margin-right: 8px;
+}
+
+.email img {
+  width: 20%;
+}
+
+.email p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+}
+.ema {
+  width: 38%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.em1 {
+  width: 100%;
+
+  display: flex;
+}
+
+form {
+  background-color: aqua;
+}
 /* ----Start-Of-Footer----- */
 footer {
   background-color: #144975;
@@ -330,7 +388,79 @@ a img {
   .cover {
     margin-bottom: 40px;
   }
+  .email input {
+    padding: 14px;
+    width: 600px;
+    height: 6px;
+    border-radius: 4px;
+  }
+  .email button {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    text-transform: uppercase;
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: #144975;
+    border-radius: 4px;
+    padding: 14px;
+  }
+  .em1 img {
+    margin-top: 1px;
+    margin-right: 8px;
+  }
 
+  .email img {
+    width: 14px;
+    height: auto;
+  }
+
+  .email p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .ema {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .em1 {
+    width: 100%;
+
+    display: flex;
+  }
+  /*----------------footer-------------*/
+
+  .block {
+    display: none;
+  }
+  .copy {
+    display: none;
+  }
+  .footer2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    text-align: center;
+  }
+  #logo {
+    width: 100px;
+  }
+  .footer2 p {
+    color: #b8b8b8;
+    font-size: 13px;
+    line-height: 8px;
+  }
+  .footer2 strong {
+    font-family: open sans;
+    letter-spacing: 1px;
+    font-weight: 100;
+  }
   @media (max-width: 743px) {
     .cover {
       background-position-x: 533px;
